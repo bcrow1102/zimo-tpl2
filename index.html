@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>zimo — 같은 집, 다른 조건</title>
+
+  <meta name="description" content="같은 매물도 접근 방식에 따라 조건이 달라집니다. 지모 전용 혜택을 확인하세요." />
+  <meta name="theme-color" content="#FFFFFF" />
+
+  <!-- Pretendard Font -->
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       META PIXEL BASE CODE
+  ============================================================ -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }
+      (window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_META_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=YOUR_META_PIXEL_ID&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- END META PIXEL -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="site-header" aria-label="Site header">
+    <div class="header-inner container">
+      <a href="#" class="header-brand">
+        <span class="header-brand__logo">zimo</span>
+        <span class="header-brand__tagline">같은 집, 다른 조건</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary navigation"></nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SPLIT
+  ============================================================ -->
+  <section class="hero hero-split" id="hero">
+    <div class="hero-split-inner">
+
+      <!-- LEFT 70 -->
+      <div class="hero-left">
+        <img src="assets/img/hero.jpg" alt="휴먼 블루드빌 전경" />
+
+        <div class="hero-left-copy">
+          <p class="copy-top">시청옆 완성된 입지</p>
+          <h2 class="copy-main">35% 압도적 할인</h2>
+          <p class="copy-sub">
+            보증금 1천만 / 월 70만원<br />
+            <strong>4천으로 가능</strong>
+          </p>
+
+          <p class="copy-price">매매가 1억 3천만</p>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+          <span>scroll</span>
+          <div class="scroll-arrow">↓</div>
+        </div>
+      </div>
+
+      <!-- RIGHT 30 -->
+      <div class="hero-right">
+        <div class="info-card">
+
+          <div class="info-card__header">
+            <div class="info-card__media">
+              <span class="info-card__tag">한정 분양</span>
+              <p class="info-card__title">휴먼 블루드빌</p>
+            </div>
+          </div>
+
+          <div class="info-card__body">
+            <ul class="info-card__stats">
+              <li>
+                <span class="stat-label">위치</span>
+                <span class="stat-value">울산 남구 신정동</span>
+              </li>
+              <li>
+                <span class="stat-label">총 세대</span>
+                <span class="stat-value">450 세대</span>
+              </li>
+              <li>
+                <span class="stat-label">매매 가격</span>
+                <span class="stat-value">1억2천 ~ 1억3천대</span>
+              </li>
+            </ul>
+
+            <a href="tel:01059361556" class="btn btn-primary" onclick="fbq('track','Lead')">
+              전화로 조건 확인하기
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 2 — FINAL CTA
+  ============================================================ -->
+  <section id="final-cta" class="zimo-final">
+    <div class="zimo-final__inner">
+
+      <div class="zimo-final__top">
+        <span class="zimo-final__eyebrow">zimo final guide</span>
+        <h2 class="zimo-final__title">
+          같은 집도, 어디서 보느냐에 따라<br />
+          <span>조건은 달라집니다</span>
+        </h2>
+        <p class="zimo-final__desc">
+          실거주 선택부터 수익형 비교까지, zimo는 마지막에 망설이게 하지 않고
+          바로 판단하게 만듭니다.
+        </p>
+      </div>
+
+      <div class="zimo-final__summary">
+        <article class="zimo-summary-card">
+          <span class="zimo-summary-card__label">CONDITION</span>
+          <h3 class="zimo-summary-card__title">
+            <a href="#" class="zimo-summary-card__link"
+              onclick="event.preventDefault(); alert('혜택코드는 이벤트 진행 시 발급됩니다.');">
+              조건 보기
+            </a>
+          </h3>
+          <p class="zimo-summary-card__text">
+            같은 매물도 조건은 다를 수 있습니다<br />
+            할인 · 지원금 · 계약 혜택 먼저 확인
+          </p>
+        </article>
+
+        <article class="zimo-summary-card">
+          <span class="zimo-summary-card__label">PROFIT</span>
+          <h3 class="zimo-summary-card__title">
+            <a href="profit.html" class="zimo-summary-card__link">수익률 계산</a>
+          </h3>
+          <p class="zimo-summary-card__text">
+            월세 · 대출 기준으로<br />
+            예상 수익 흐름을 바로 계산합니다
+          </p>
+        </article>
+      </div>
+
+      <div class="zimo-final__closing">
+        <p class="zimo-final__closing-text">
+          이제는 매물을 더 보는 것보다,
+          <strong>조건이 더 좋은 쪽을 먼저 확인할 차례입니다.</strong>
+        </p>
+
+        <div class="zimo-final__cta-row">
+          <a href="tel:01059361556" class="zimo-btn zimo-btn--primary">전화 상담</a>
+          <a href="https://open.kakao.com/o/s5zqB6pi" class="zimo-btn zimo-btn--secondary" target="_blank"
+            rel="noopener">카카오톡 상담</a>
+        </div>
+
+        <p class="zimo-final__sub-contact">
+          통화가 어려우시면 <a href="sms:01059361556">문자로 문의</a>
+        </p>
+      </div>
+
+      <div class="zimo-final__info">
+        <div class="zimo-final__info-item">
+          <span class="zimo-final__info-label">운영시간</span>
+          <strong>평일 09:00 - 18:00</strong>
+        </div>
+        <div class="zimo-final__info-item">
+          <span class="zimo-final__info-label">상담채널</span>
+          <strong>전화 / 카카오 상담 가능</strong>
+        </div>
+        <div class="zimo-final__info-item">
+          <span class="zimo-final__info-label">zimo 안내</span>
+          <strong>같은 집, 다른 조건</strong>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
