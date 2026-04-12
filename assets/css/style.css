@@ -1286,3 +1286,73 @@ a {
     font-size: 1.05rem;
   }
 }
+
+/* ===============================
+   REAL MOBILE FONT BOOSTING FIX
+=============================== */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.hero-left-copy,
+.copy-top,
+.copy-main,
+.copy-sub,
+.copy-sub strong,
+.copy-price {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-left {
+    min-height: 52svh;
+  }
+
+  .hero-left-copy {
+    top: 14%;
+    left: 20px;
+    right: 20px;
+    max-width: none;
+  }
+
+  .copy-top {
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+  }
+
+  .copy-main {
+    font-size: clamp(2.2rem, 12vw, 3.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+    word-break: keep-all;
+  }
+
+  .copy-sub {
+    font-size: 0.98rem;
+    line-height: 1.35;
+    margin-top: 10px;
+  }
+
+  .copy-sub strong {
+    font-size: 1.15rem;
+    line-height: 1.15;
+    margin-top: 6px;
+  }
+
+  .copy-price {
+    margin-top: 14px;
+    font-size: clamp(1.9rem, 9vw, 2.6rem);
+    line-height: 1.02;
+  }
+
+  .scroll-indicator {
+    bottom: 14px;
+  }
+}
