@@ -580,6 +580,26 @@ a {
   box-shadow: 0 18px 40px rgba(17, 24, 39, 0.04);
 }
 
+.zimo-summary-card {
+  background: #fff;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+  border-radius: 28px;
+  padding: 30px 28px;
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.04);
+
+  /* 추가 */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.zimo-summary-card:hover {
+  transform: translateY(-4px);
+}
+
+.zimo-summary-card:active {
+  transform: scale(0.98);
+}
+
 .zimo-summary-card__label {
   display: inline-flex;
   align-items: center;
