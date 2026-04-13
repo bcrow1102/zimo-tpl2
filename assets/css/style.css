@@ -772,16 +772,18 @@ a {
 
 .zimo-final__info-label {
   display: block;
-  margin-bottom: 8px;
-  font-size: 13px;
-  font-weight: 700;
-  color: #8a8a8a;
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #9ca3af;
 }
 
 .zimo-final__info-item strong {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #111111;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 400;
+  /* 🔥 핵심: 볼드 제거 */
+  color: #6b7280;
 }
 
 /* responsive */
